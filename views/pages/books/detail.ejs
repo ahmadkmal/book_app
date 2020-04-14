@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="/">
+    <title>Book_app</title>
     <title>book_app</title>
     <link rel="stylesheet" type="text/css" href="../../public/styles/reset.css">
     <link rel="stylesheet" href="../../public/styles/base.css">
     <link rel="stylesheet" href="../../public/styles/layout.css">
     <link rel="stylesheet" href="../../public/styles/modules.css">
-
-
 </head>
 <body>
     <header>
-    <h1>Best Books!</h1>
+        <h1>Best Books!</h1>
     </header>
     <main>
-        <%savedBooks.forEach(book=>{%>
-            <div>
-              <img src="<%=book.imageurl%>" alt="">
-              <h4><%=book.title%></h4>
-              <p><%=book.author%></p>
-              <!-- <p><%=book.description%></p> -->
-              <input type="button" value="View Details" id='<%=book.id%>'' action= >
-            </div> 
-          <%})  %>
+      <div>
+        <img src="<%=book.imageUrl%>" alt="">
+        <h4><%=book.title%></h4>
+        <p><%=book.authors%></p>
+        <p><%=book.description%></p>
+      </div> 
     </main>
     <footer>
         <p>all copyright are resrved</p>

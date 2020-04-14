@@ -1,0 +1,31 @@
+header{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0px;
+}
+div{
+    background-color: grey;
+    width: 80%;
+    margin: 10px auto;
+
+}
+footer{
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+}
+input[type="text"] {
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 29px;
+}
+input[type="submit"] {
+    width: calc(80% + 40px);
+    margin: 20px auto;
+    display: block;
+    /* padding: 20px; */
+    font-size: 27px;
+}
